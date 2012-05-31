@@ -1,0 +1,48 @@
+* {
+	margin: 0;
+	padding: 3px;
+}
+body {
+	background: #fff;
+	color: #d0d0d0;
+}
+h1 {
+	font-size: 30px;
+}
+.special_paragraph {
+	color: #E0FFFF;
+}
+#footer {
+	font-size: 10px;
+	color: red;
+}
+li span {
+	background: #a0a0a0;
+	color: #000;
+}
+h1, h3 {
+	color: red;
+}
+ol li:first-child {
+	color: green;
+}
+ul {
+	display: block;
+	list-style: none;
+}
+ul li {
+	width: 100px;
+	float: left;
+}
+ul li a {
+	padding: 5px;
+}
+a:link, a:visited, a:hover, a:active {
+	text-decoration:none;
+}
+a:hover {
+	background:orange;
+}
+#first_paragraph {
+	clear: left;
+}
