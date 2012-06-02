@@ -5,12 +5,14 @@ a, em, img, strong, b, i, dl, dt, dd, ol, ul, li, footer, header, nav {
 	border: 0;
 }
 
+html {
+	background-color: #000;
+}
 
 body {
-	background-color: #000;
-	background-image: url('../images/stars.png');
 	color: #a0a0a0;
 	font: normal normal normal 62.5%/1.5 helvetica, arial, sans-serif;
+	background-image: url('../images/stars.png');
 	padding: 20px;
 }
 
@@ -18,8 +20,31 @@ h1 {
 	font-family: courier, monospace;
 	font-size: 10em;
 	color: orange;
-	margin-top: 50px;
+	margin-top: 30px;
 	line-height: 0.6;
+	font-weight: bold;
+	font-variant: small-caps;
+	font-style: italic;
+	-moz-text-shadow: 2px 2px 2px #fff;
+	-khtml-text-shadow: 2px 2px 2px #fff;
+	-webkit-text-shadow: 2px 2px 2px #fff;
+	-o-text-shadow: 2px 2px 2px #fff;
+	-ms-text-shadow: 2px 2px 2px #fff;
+	text-shadow: 2px 2px 2px #fff;
+	letter-spacing: 2px;
+}
+
+h2, h3 {
+	text-transform: uppercase;
+	font-size: 2.5em;
+	margin-top: 20px;
+	color: #fff;
+	text-indent: 5px;
+}
+
+h3 {
+	color: rgba(255,255,255,0.2);
+	text-align: center;
 }
 
 ul {
@@ -28,21 +53,50 @@ ul {
 	font-size: 2em;
 }
 
-ul>li {
-	/*width: 100px;*/
+ul li {
 	margin: 10px 0;
-	/*padding-left: 20px;*/
 	float: left;
 	background: #000;
 }
 
-ul>li a {
+ul li a {
 	text-decoration: none;
 	color: #fff;
 	background: #413C38;
 	text-align: center;
-	padding: 5px;
+	padding: 5px 10px;
 }
-ul>li a:hover {
+ul li a:hover {
 	color: orange;
+}
+
+ol {
+	margin-left: 100px;
+	font-size: 16px;
+	color: #e3cfa3;
+	list-style-type: none;
+	width: 17%;
+	margin-top: 20px;
+}
+
+ol li:hover {
+	background: orange;
+	color: #000;
+}
+
+p {
+	font-size: 14px;
+}
+
+#vertical_align {
+	height: 400px;
+}
+#vertical_align img {
+	vertical-align: bottom;
+}
+
+footer {
+	text-align: center;
+	color: #fcff00;
+	word-spacing: 10px;
 }
