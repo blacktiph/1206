@@ -27,7 +27,7 @@ h1 {
 	font-style: italic;
 	-moz-text-shadow: 2px 2px 2px #fff;
 	-khtml-text-shadow: 2px 2px 2px #fff;
-	-web-text-shadow: 2px 2px 2px #fff;
+	-webkit-text-shadow: 2px 2px 2px #fff;
 	-o-text-shadow: 2px 2px 2px #fff;
 	-ms-text-shadow: 2px 2px 2px #fff;
 	text-shadow: 2px 2px 2px #fff;
